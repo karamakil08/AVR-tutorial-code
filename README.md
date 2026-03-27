@@ -10,4 +10,6 @@ This repo uses the Atmega328P MCU, [Datasheet](https://ww1.microchip.com/downloa
 4. led_timer_ctc_interrupt: uses an ISR that uses TIMER0 on CTC mode that prompts an interrupt on timer compare match
 5. led_no_interrupt: Toggles the led with no interrupt and no delay function by using the Action on compare match on page 84 of the MCU.
 
-in order to run any file edit the Makefile (I'm sorry I was too lazy to make a seperate Makefile for every file)
+> [!NOTE]
+> Run the makefile in order to flash the program onto the MCU 
+
