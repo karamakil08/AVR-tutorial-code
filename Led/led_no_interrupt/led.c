@@ -1,5 +1,8 @@
-#include <avr/io.h>
+/*##########################
+ * ####SAVE KIDS IN GAZA####
+ * #########################*/
 
+#include <avr/io.h>
 
 void main(void){
 	// Set pin as output
