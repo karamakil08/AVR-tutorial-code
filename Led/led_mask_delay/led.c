@@ -2,10 +2,6 @@
  * ### SAVE KIDS IN GAZA! ##
  * #########################*/
 
-// Define direction register
-#define DDRB *((volatile byte*)0x24)
-// Define Data register
-#define PORTB *((volatile byte*)0x25)
 
 #include <avr/io.h>
 #include <util/delay.h>
